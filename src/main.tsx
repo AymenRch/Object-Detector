@@ -13,7 +13,7 @@ if (!rootElement) {
 
 createRoot(rootElement).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Object-Detector">
       <Routes>
         <Route path="/*" element={<App />} />
         <Route path="/objet" element={<Objet />} />
